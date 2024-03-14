@@ -6,32 +6,33 @@ import './syles.css'
 function App() {
   return (
       <div className="container">
-        <div className="container-login">
-          <div className="wrap-login">
-            <form className="login-form">
 
-              <span className="login-form-title">
-                <img src={LogoIMG} alt="Logo-car" />
+        <div className="area-container-login">
+
+          <div className="area-login">
+
+            <form >
+              <span className='logo-img' >
+                <img  src={LogoIMG} alt="Logo-car" />
               </span>
 
-              <div className="wrap-input">
+              <div className="area-input">
                 <FaUser className="icon"/>
                 <input className="input" type="email" placeholder='USERNAME' />
               </div>
 
-              <div className="wrap-input">
+              <div className="area-input">
                 <FaLock className="icon"/>
                 <input className="input" type="password" placeholder='PASSWORD' />
               </div>
 
-              <div className="container-login-form-btn">
-                <button className="login-form-btn">LOGIN</button>
+              <div className="area-btn-login">
+                <button className="btn-login">LOGIN</button>
               </div>
 
-              <div className="txt-center">
-                <span className="txt1">Não possui conta?</span>
+              <div className="area-pass">
+                <a className='txt-pass' href="#">Forgot Password?</a>
 
-                <a className='txt2' href="#">Criar conta</a>
               </div>
 
             </form>

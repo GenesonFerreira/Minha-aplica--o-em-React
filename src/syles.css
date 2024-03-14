@@ -13,73 +13,89 @@
     margin: 0 auto;
 }
 
-.container-login {
+.area-container-login{
     width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-wrap: wrap ;
     align-items: center;
     justify-content: center;
     padding: 15px;
     background-color: transparent;
-}
-
-.wrap-login{
-    margin-right: 8%;
-    margin-bottom: 150px;
-    width: 390px;
-    background-color: transparent;
-    padding: 77px 55px 33px 55px;
-}
-
-.login-form{
-    width: 100%;
-}
-
-.login-form-title{
-    display: block;
-    margin-left: 37px;
-    margin-bottom: 32px;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-}
-
-.login-form-title img {
-    width: 90px;
-}
-
-.wrap-input {
-    width: 360px;
-    height: 50px;
-    margin-top: 38px;
-    position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.288);
-    margin-bottom: 40px;
-    
-}
-.icon{
-    width: 10%;
-    height: 25px;
-    margin-top: 10px;
-    color: rgba(255, 255, 255, 0.226);
-}
-
-.input{
-    padding: 8px;
-    width: 80%;
-    height: 100%;
-    background-color: transparent;
-    border: none;
     outline: none;
 }
 
-::placeholder{
-    padding: 5px;
-    margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.219);
-    margin-top: 30px;
+.area-login{
+    width: 360px;
+    height: 450px;
+    background-color: transparent;
     
 }
 
+.logo-img img{
+    margin-bottom: 50px;
+    margin-left: 85px;
+    width: 150px;
+}
+
+.area-input {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 350px; /* Defina a largura do seu input conforme necessário */
+    height: 45px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    text-indent: 20px; /* Move o texto digitado 5 pixels para a direita */
+    outline: none;
+    color: #ffffff;
+  }
+  
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.212);
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px; /* Ajuste conforme necessário para o ícone */
+    top: 50%;
+    color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+  }
+
+  .btn-login {
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: rgba(33, 72, 192, 1); /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona borda arredondada ao botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    width: 350px;
+    height: 45px;
+    box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.1); /* Adiciona sombra difusa na parte inferior */
+
+  }
+  
+  .btn-login:hover {
+    background-color: transparent; /* Cor de fundo ao passar o mouse sobre o botão */
+    color: rgba(255, 255, 255, 0.384);
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    box-shadow: none;
+  }
+
+  .area-pass{
+    margin-top: 8px;
+    margin-left: 210px;
+    text-align: center; /* Alinha o conteúdo no centro */
+  }
+  
+  .txt-pass{
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+  }
+  
+  
