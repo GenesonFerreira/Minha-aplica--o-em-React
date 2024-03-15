@@ -15,15 +15,15 @@
 
 ## Seeking to absorb knowledge, I built this login page using the React framework.
 
-    I used the source code when starting React and deleted unnecessary files.
+    I used the source code when starting React and deleted the unnecessary files.
 
     I used jsx as a basis to maintain correct semantics and seek to optimize the page as presented in video classes.
 
     I imported icons through React to add to my application: -v 5.0.1
 
-    application with verses:
+    application with versions:
     Node: v18.15.0 - node -v
     NPM: v6.14.15 - npm -v
     React: v18.2.0 - npm list react
 
-    language used: HTML, CSS, JSX (## REACT ##)
+    languages used: HTML, CSS, JSX (## REACT ##)
