@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import LogoIMG from './assets/Logo-car.png'
 import { FaUser, FaLock } from 'react-icons/fa';
 import './syles.css'
@@ -6,7 +5,6 @@ import './syles.css'
 function App() {
   return (
       <div className="container">
-
         <div className="area-container-login">
 
           <div className="area-login">
@@ -18,12 +16,12 @@ function App() {
 
               <div className="area-input">
                 <FaUser className="icon"/>
-                <input className="input" type="email" placeholder='USERNAME' />
+                <input className="input" type="email" placeholder='USERNAME' autoFocus required/>
               </div>
 
               <div className="area-input">
                 <FaLock className="icon"/>
-                <input className="input" type="password" placeholder='PASSWORD' />
+                <input className="input" type="password" placeholder='PASSWORD' required />
               </div>
 
               <div className="area-btn-login">
@@ -31,7 +29,7 @@ function App() {
               </div>
 
               <div className="area-pass">
-                <a className='txt-pass' href="#">Forgot Password?</a>
+                <a className='txt-pass' href="g#">Forgot Password?</a>
 
               </div>
 
